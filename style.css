@@ -1,0 +1,37 @@
+body{
+  background-color: linear-gradient(to bottom right, #e5f6f4,#f8f6e7);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  height: 100vh;
+}
+
+
+
+@media (max-width: 575px) {
+ 
+ h1{
+  font-size: 40px;
+ } 
+
+ hero{
+  padding: 20px;
+ }
+
+ p{
+  font-size: 20px;
+ }
+
+ 
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+ 
+  
+}
+
+@media (min-width: 768px) {
+ 
+}
+
