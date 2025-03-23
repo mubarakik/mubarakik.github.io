@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .michroma-regular {
   font-family: "Michroma", sans-serif;
   font-weight: 400;
@@ -32,6 +33,20 @@
   font-style: normal;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* New .wrapper class (add this) */
+.wrapper {
+  width: 90%; /* Adjust as needed, e.g., 80%, 95%, etc. */
+  max-width: 1200px; /* Set a maximum width for larger screens */
+  margin: 0 auto; /* Center the wrapper horizontally */
+  padding: 20px; /* Add some padding around the content */
+  /* Add any other styles you want for all sections here */
+}
 
 body{
   background-color: linear-gradient(to bottom right, #e5f6f4,#f8f6e7);
@@ -39,9 +54,13 @@ body{
   background-size: 40px 40px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  height: 100dvh;
+}
+
+hero{
+  background-size: 40px 40px;
   display: grid;
   align-content: center;
-  height: 100vh;
 }
 
 h1{
@@ -50,6 +69,10 @@ h1{
 
 .greeting::before{
   content: "👋";
+}
+
+.welcome-msg{
+  margin: 0.5rem 0 1rem 0;
 }
 
 .tags{
@@ -86,7 +109,7 @@ h1{
 }
 
 .social-links a img{
-  height: 15px; 
+  height: 20px; 
 }
 
 
