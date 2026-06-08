@@ -198,13 +198,23 @@ body {
 }
 .exp-header {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+@media (min-width: 640px) {
+  .exp-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
 }
 .exp-title {
   font-size: 1.05rem;
   font-weight: 600;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }
