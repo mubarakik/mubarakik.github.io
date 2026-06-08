@@ -2,41 +2,162 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubaraka Kikonyogo | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Home</title>
 </head>
 <body>
-  <nav></nav>
-  <hero class="wrapper">
-    <!-- <h1>Welcome to my corner of the internet, </h1>
-    <p>where I'm building a digital home for my passion in software engineering!</p>
-    <div>
-      <a href="https://linkedin.com/in/mubaraka-kikonyogo-950010271"><img src="icons8-linkedin-50.png" alt="linkedin-logo"></a>
-      
-      <a href="https://twitter.com/mubarakik_?t=JaNmvertWnSwtbBtezG60A&s=09"><img src="icons8-twitter-50.png" alt="twitter-logo"></a>
-      
-    </div>
-    <h2>Personal projects</h2>
-    <ul>
-      <li>
-        <a href="savings/">Savings Tracker</a>
-        <a href="savings/media_looper">Media looper</a>
-      </li>
-    </ul> -->
-    <h1 class="michroma-regular greeting">Hello, I am<br>Mubaraka Kikonyogo</h1>
-    <p class="montserrat-300 welcome-msg">Welcome to my own slice of the of the world wide web</p>
-    <div class="montserrat-500 tags"><span>Software Engineer</span></div>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/mubaraka-kikonyogo-950010271" target="_blank"><img src="linkedin.svg" alt="linkedin-logo"></a>
-      <a href="https://x.com/mubarakik_?t=JaNmvertWnSwtbBtezG60A&s=09" target="_blank"><img src="X_light.svg" alt="x-logo"></a>
-    </div>
-  </hero>
-  <section class="projects wrapper">
-    
-  </section>
+  <div class="theme-toggle">
+    <button id="theme-btn" aria-label="Toggle Theme">
+      <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon" style="display:none;"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+    </button>
+  </div>
 
- 
+  <div class="main-wrapper">
+    <!-- Header -->
+    <header class="section profile-header">
+      <div class="header-content">
+        <div class="avatar">MK</div>
+        <div class="header-text">
+          <h1 class="name">Mubaraka Kikonyogo</h1>
+          <h2 class="title">Software Engineer @ Jentroy Uganda Limited</h2>
+          <p class="subtitle">Kampala, Central Region, Uganda</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="separator"></div>
+
+    <!-- Overview -->
+    <section class="section overview">
+      <h3 class="section-title">Overview</h3>
+      <p class="muted-text">I’m a full-stack software engineer focused on building practical, user-centered solutions using technologies like ASP.NET and Odoo. At Jentroy (U) Ltd, I contribute to a range of projects that improve internal systems and client workflows.</p>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Social Links -->
+    <section class="section social-links">
+      <a href="https://linkedin.com/in/mubaraka-kikonyogo-950010271" target="_blank" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a href="mailto:mubarakik26@gmail.com" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span>Email</span>
+      </a>
+      <a href="https://x.com/mubarakik_?t=JaNmvertWnSwtbBtezG60A&s=09" target="_blank" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+        <span>X (Twitter)</span>
+      </a>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- About -->
+    <section class="section about">
+      <h3 class="section-title">About</h3>
+      <p class="muted-text">I’m currently learning Next.js and Tailwind CSS to broaden my frontend capabilities and stay aligned with modern web standards. I’m always looking to exchange ideas, learn from others, and explore better ways of building software. Let’s connect and grow together!</p>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Tech Stack -->
+    <section class="section tech-stack">
+      <h3 class="section-title">Tech Stack</h3>
+      <div class="badges">
+        <span class="badge">.NET Framework</span>
+        <span class="badge">PostgreSQL</span>
+        <span class="badge">Next.js</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">Odoo</span>
+        <span class="badge">Arabic</span>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Experiences -->
+    <section class="section experiences">
+      <h3 class="section-title">Experiences</h3>
+      <div class="experience-list">
+        
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">Software Engineer <span class="chip">Full-time</span></h4>
+            <span class="exp-date">Jan 2025 - Present</span>
+          </div>
+          <div class="exp-company">Jentroy Uganda Limited</div>
+          <p class="exp-desc muted-text">Focus on building practical, user-centered solutions. Develop and maintain internal systems and client workflows utilizing technologies like ASP.NET and Odoo.</p>
+        </div>
+
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">Junior Software Engineer <span class="chip">Full-time</span></h4>
+            <span class="exp-date">July 2023 - Jan 2025</span>
+          </div>
+          <div class="exp-company">Jentroy Uganda Limited</div>
+          <p class="exp-desc muted-text">Contributed to various software projects and internal systems.</p>
+        </div>
+
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">Junior Software Engineer <span class="chip">Internship</span></h4>
+            <span class="exp-date">July 2022 - Aug 2022</span>
+          </div>
+          <div class="exp-company">Jentroy Uganda Limited</div>
+          <p class="exp-desc muted-text">Initial stint at Jentroy Uganda Limited contributing to software development workflows.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Certifications -->
+    <section class="section certifications">
+      <h3 class="section-title">Certifications & Education</h3>
+      <div class="experience-list">
+
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">Information Technology (Bachelor's)</h4>
+            <span class="exp-date">Aug 2019 - Jan 2023</span>
+          </div>
+          <div class="exp-company">Islamic University in Uganda</div>
+        </div>
+        
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">React Foundations for Next.js</h4>
+            <span class="exp-date"></span>
+          </div>
+          <div class="exp-company">Vercel</div>
+        </div>
+
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4 class="exp-title">Next.js App Router Fundamentals</h4>
+            <span class="exp-date"></span>
+          </div>
+          <div class="exp-company">Vercel</div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Footer -->
+    <footer class="section footer">
+      <p class="muted-text text-sm">&copy; 2026 Mubaraka Kikonyogo.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
